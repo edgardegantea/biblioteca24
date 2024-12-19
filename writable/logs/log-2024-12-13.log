@@ -1,0 +1,534 @@
+INFO - 2024-12-13 01:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-13 01:43:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+INFO - 2024-12-13 02:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-13 02:00:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "prestamos/crear.php"
+[Method: GET, Route: prestamos/crear]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prestamos/crear.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('prestamos/crear', [], true)
+ 3 APPPATH\Controllers\Prestamos.php(33): view('prestamos/crear', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+INFO - 2024-12-13 02:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-13 02:01:32 --> ErrorException: Undefined array key "id_recurso"
+[Method: GET, Route: prestamos/crear]
+in APPPATH\Views\prestamos\crear.php on line 18.
+ 1 APPPATH\Views\prestamos\crear.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_recurso"', 'F:\\newtest\\biblioteca\\app\\Views\\prestamos\\crear.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\newtest\\biblioteca\\app\\Views\\prestamos\\crear.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('prestamos/crear', [], true)
+ 5 APPPATH\Controllers\Prestamos.php(33): view('prestamos/crear', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->crear()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+INFO - 2024-12-13 02:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-13 02:01:54 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: prestamos/crear]
+in APPPATH\Views\prestamos\crear.php on line 18.
+ 1 APPPATH\Views\prestamos\crear.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'F:\\newtest\\biblioteca\\app\\Views\\prestamos\\crear.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\newtest\\biblioteca\\app\\Views\\prestamos\\crear.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('prestamos/crear', [], true)
+ 5 APPPATH\Controllers\Prestamos.php(33): view('prestamos/crear', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->crear()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+INFO - 2024-12-13 02:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-13 02:02:12 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: prestamos/crear]
+in APPPATH\Views\prestamos\crear.php on line 18.
+ 1 APPPATH\Views\prestamos\crear.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'F:\\newtest\\biblioteca\\app\\Views\\prestamos\\crear.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\newtest\\biblioteca\\app\\Views\\prestamos\\crear.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('prestamos/crear', [], true)
+ 5 APPPATH\Controllers\Prestamos.php(33): view('prestamos/crear', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->crear()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+INFO - 2024-12-13 02:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-13 02:03:57 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: prestamos/crear]
+in APPPATH\Views\prestamos\crear.php on line 18.
+ 1 APPPATH\Views\prestamos\crear.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'F:\\newtest\\biblioteca\\app\\Views\\prestamos\\crear.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\newtest\\biblioteca\\app\\Views\\prestamos\\crear.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('prestamos/crear', [], true)
+ 5 APPPATH\Controllers\Prestamos.php(31): view('prestamos/crear', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->crear()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+INFO - 2024-12-13 02:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-13 02:04:05 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: prestamos/crear]
+in APPPATH\Views\prestamos\crear.php on line 18.
+ 1 APPPATH\Views\prestamos\crear.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'F:\\newtest\\biblioteca\\app\\Views\\prestamos\\crear.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\newtest\\biblioteca\\app\\Views\\prestamos\\crear.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('prestamos/crear', [], true)
+ 5 APPPATH\Controllers\Prestamos.php(31): view('prestamos/crear', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->crear()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+INFO - 2024-12-13 02:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-13 02:04:58 --> CodeIgniter\Validation\Exceptions\ValidationException: "after_or_equal" is not a valid rule.
+[Method: POST, Route: prestamos/guardar]
+in SYSTEMPATH\Validation\Validation.php on line 345.
+ 1 SYSTEMPATH\Validation\Validation.php(345): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('after_or_equal')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('fecha_devolucion', 'fecha_devolucion', '2024-12-20', [...], [...], 'fecha_devolucion')
+ 3 APPPATH\Controllers\Prestamos.php(45): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+INFO - 2024-12-13 02:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-13 02:14:56 --> CodeIgniter\Validation\Exceptions\ValidationException: "after_or_equal" is not a valid rule.
+[Method: POST, Route: prestamos/guardar]
+in SYSTEMPATH\Validation\Validation.php on line 345.
+ 1 SYSTEMPATH\Validation\Validation.php(345): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('after_or_equal')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('fecha_devolucion', 'fecha_devolucion', '2024-12-20', [...], [...], 'fecha_devolucion')
+ 3 APPPATH\Controllers\Prestamos.php(45): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+CRITICAL - 2024-12-13 02:15:55 --> CodeIgniter\Validation\Exceptions\ValidationException: "greater_than_or_equal_to" is not a valid rule.
+[Method: POST, Route: prestamos/guardar]
+in SYSTEMPATH\Validation\Validation.php on line 345.
+ 1 SYSTEMPATH\Validation\Validation.php(345): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('greater_than_or_equal_to')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('fecha_devolucion', 'fecha_devolucion', '2024-12-20', [...], [...], 'fecha_devolucion')
+ 3 APPPATH\Controllers\Prestamos.php(45): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+INFO - 2024-12-13 02:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-13 02:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-13 02:18:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "prestamos/editar.php"
+[Method: GET, Route: prestamos/editar/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prestamos/editar.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('prestamos/editar', [], true)
+ 3 APPPATH\Controllers\Prestamos.php(79): view('prestamos/editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->editar('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+INFO - 2024-12-13 02:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-13 02:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-13 02:19:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "template/main.php"
+[Method: GET, Route: prestamos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/main.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('template/main', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('prestamos/index', [], true)
+ 4 APPPATH\Controllers\Prestamos.php(20): view('prestamos/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+INFO - 2024-12-13 02:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-13 02:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-13 02:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-13 02:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-13 02:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-13 02:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-13 14:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-13 14:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-13 14:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-13 14:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-13 14:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-13 14:34:46 --> ErrorException: Undefined array key "id_recurso"
+[Method: GET, Route: prestamos/crear]
+in APPPATH\Views\prestamos\crear.php on line 35.
+ 1 APPPATH\Views\prestamos\crear.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_recurso"', 'F:\\newtest\\biblioteca\\app\\Views\\prestamos\\crear.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\newtest\\biblioteca\\app\\Views\\prestamos\\crear.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('prestamos/crear', [], true)
+ 5 APPPATH\Controllers\Prestamos.php(31): view('prestamos/crear', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->crear()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+INFO - 2024-12-13 14:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-13 14:35:08 --> ErrorException: Undefined array key "id_recurso"
+[Method: GET, Route: prestamos/crear]
+in APPPATH\Views\prestamos\crear.php on line 35.
+ 1 APPPATH\Views\prestamos\crear.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_recurso"', 'F:\\newtest\\biblioteca\\app\\Views\\prestamos\\crear.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\newtest\\biblioteca\\app\\Views\\prestamos\\crear.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('prestamos/crear', [], true)
+ 5 APPPATH\Controllers\Prestamos.php(31): view('prestamos/crear', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->crear()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+INFO - 2024-12-13 14:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-13 14:35:15 --> ErrorException: Undefined array key "id_recurso"
+[Method: GET, Route: prestamos/crear]
+in APPPATH\Views\prestamos\crear.php on line 54.
+ 1 APPPATH\Views\prestamos\crear.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_recurso"', 'F:\\newtest\\biblioteca\\app\\Views\\prestamos\\crear.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\newtest\\biblioteca\\app\\Views\\prestamos\\crear.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('prestamos/crear', [], true)
+ 5 APPPATH\Controllers\Prestamos.php(31): view('prestamos/crear', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->crear()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+INFO - 2024-12-13 14:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-13 14:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-13 14:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-13 14:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-13 14:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-13 14:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-13 14:39:28 --> CodeIgniter\Validation\Exceptions\ValidationException: "array" is not a valid rule.
+[Method: POST, Route: prestamos/guardar]
+in SYSTEMPATH\Validation\Validation.php on line 345.
+ 1 SYSTEMPATH\Validation\Validation.php(345): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('array')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('recursos', 'recursos', [...], [...], [...], 'recursos')
+ 3 APPPATH\Controllers\Prestamos.php(44): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+ERROR - 2024-12-13 14:40:19 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`biblioteca`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`id_recurso`) REFERENCES `recursos` (`id`)) in F:\newtest\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 F:\newtest\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 F:\newtest\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 F:\newtest\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 F:\newtest\biblioteca\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 F:\newtest\biblioteca\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 F:\newtest\biblioteca\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 F:\newtest\biblioteca\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 F:\newtest\biblioteca\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 F:\newtest\biblioteca\app\Controllers\Prestamos.php(56): CodeIgniter\BaseModel->save(Array)
+#9 F:\newtest\biblioteca\system\CodeIgniter.php(933): App\Controllers\Prestamos->guardar()
+#10 F:\newtest\biblioteca\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+#11 F:\newtest\biblioteca\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 F:\newtest\biblioteca\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 F:\newtest\biblioteca\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 F:\newtest\biblioteca\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 F:\newtest\biblioteca\system\rewrite.php(44): require_once('F:\\newtest\\bibl...')
+#16 {main}
+CRITICAL - 2024-12-13 14:40:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`biblioteca`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`id_recurso`) REFERENCES `recursos` (`id`))
+[Method: POST, Route: prestamos/guardar]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (:id_usuario:, :fecha_prestamo:, :fecha_devolucion:, :estado:, :observaciones:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Prestamos.php(56): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+CRITICAL - 2024-12-13 14:40:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`biblioteca`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`id_recurso`) REFERENCES `recursos` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (\'1\', \'2024-12-13\', \'2024-12-20\', \'en curso\', \'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (\'1\', \'2024-12-13\', \'2024-12-20\', \'en curso\', \'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (:id_usuario:, :fecha_prestamo:, :fecha_devolucion:, :estado:, :observaciones:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Prestamos.php(56): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->guardar()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+CRITICAL - 2024-12-13 14:40:19 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`biblioteca`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`id_recurso`) REFERENCES `recursos` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (\'1\', \'2024-12-13\', \'2024-12-20\', \'en curso\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (\'1\', \'2024-12-13\', \'2024-12-20\', \'en curso\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (\'1\', \'2024-12-13\', \'2024-12-20\', \'en curso\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (:id_usuario:, :fecha_prestamo:, :fecha_devolucion:, :estado:, :observaciones:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Prestamos.php(56): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+INFO - 2024-12-13 14:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-13 14:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-13 14:41:01 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`biblioteca`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`id_recurso`) REFERENCES `recursos` (`id`)) in F:\newtest\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 F:\newtest\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 F:\newtest\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 F:\newtest\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 F:\newtest\biblioteca\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 F:\newtest\biblioteca\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 F:\newtest\biblioteca\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 F:\newtest\biblioteca\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 F:\newtest\biblioteca\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 F:\newtest\biblioteca\app\Controllers\Prestamos.php(56): CodeIgniter\BaseModel->save(Array)
+#9 F:\newtest\biblioteca\system\CodeIgniter.php(933): App\Controllers\Prestamos->guardar()
+#10 F:\newtest\biblioteca\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+#11 F:\newtest\biblioteca\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 F:\newtest\biblioteca\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 F:\newtest\biblioteca\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 F:\newtest\biblioteca\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 F:\newtest\biblioteca\system\rewrite.php(44): require_once('F:\\newtest\\bibl...')
+#16 {main}
+CRITICAL - 2024-12-13 14:41:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`biblioteca`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`id_recurso`) REFERENCES `recursos` (`id`))
+[Method: POST, Route: prestamos/guardar]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (:id_usuario:, :fecha_prestamo:, :fecha_devolucion:, :estado:, :observaciones:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Prestamos.php(56): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+CRITICAL - 2024-12-13 14:41:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`biblioteca`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`id_recurso`) REFERENCES `recursos` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (\'8\', \'2024-12-13\', \'2024-12-20\', \'en curso\', \'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (\'8\', \'2024-12-13\', \'2024-12-20\', \'en curso\', \'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (:id_usuario:, :fecha_prestamo:, :fecha_devolucion:, :estado:, :observaciones:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Prestamos.php(56): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->guardar()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+CRITICAL - 2024-12-13 14:41:01 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`biblioteca`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`id_recurso`) REFERENCES `recursos` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (\'8\', \'2024-12-13\', \'2024-12-20\', \'en curso\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (\'8\', \'2024-12-13\', \'2024-12-20\', \'en curso\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (\'8\', \'2024-12-13\', \'2024-12-20\', \'en curso\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (:id_usuario:, :fecha_prestamo:, :fecha_devolucion:, :estado:, :observaciones:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Prestamos.php(56): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+ERROR - 2024-12-13 14:44:08 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`biblioteca`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`id_recurso`) REFERENCES `recursos` (`id`)) in F:\newtest\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 F:\newtest\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 F:\newtest\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 F:\newtest\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 F:\newtest\biblioteca\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 F:\newtest\biblioteca\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 F:\newtest\biblioteca\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 F:\newtest\biblioteca\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 F:\newtest\biblioteca\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 F:\newtest\biblioteca\app\Controllers\Prestamos.php(56): CodeIgniter\BaseModel->save(Array)
+#9 F:\newtest\biblioteca\system\CodeIgniter.php(933): App\Controllers\Prestamos->guardar()
+#10 F:\newtest\biblioteca\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+#11 F:\newtest\biblioteca\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 F:\newtest\biblioteca\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 F:\newtest\biblioteca\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 F:\newtest\biblioteca\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 F:\newtest\biblioteca\system\rewrite.php(44): require_once('F:\\newtest\\bibl...')
+#16 {main}
+CRITICAL - 2024-12-13 14:44:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`biblioteca`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`id_recurso`) REFERENCES `recursos` (`id`))
+[Method: POST, Route: prestamos/guardar]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (:id_usuario:, :fecha_prestamo:, :fecha_devolucion:, :estado:, :observaciones:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Prestamos.php(56): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+CRITICAL - 2024-12-13 14:44:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`biblioteca`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`id_recurso`) REFERENCES `recursos` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (\'8\', \'2024-12-13\', \'2024-12-20\', \'en curso\', \'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (\'8\', \'2024-12-13\', \'2024-12-20\', \'en curso\', \'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (:id_usuario:, :fecha_prestamo:, :fecha_devolucion:, :estado:, :observaciones:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Prestamos.php(56): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->guardar()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+CRITICAL - 2024-12-13 14:44:08 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`biblioteca`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`id_recurso`) REFERENCES `recursos` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (\'8\', \'2024-12-13\', \'2024-12-20\', \'en curso\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (\'8\', \'2024-12-13\', \'2024-12-20\', \'en curso\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (\'8\', \'2024-12-13\', \'2024-12-20\', \'en curso\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (:id_usuario:, :fecha_prestamo:, :fecha_devolucion:, :estado:, :observaciones:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Prestamos.php(56): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+ERROR - 2024-12-13 14:44:27 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`biblioteca`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`id_recurso`) REFERENCES `recursos` (`id`)) in F:\newtest\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 F:\newtest\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pr...', 0)
+#1 F:\newtest\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 F:\newtest\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 F:\newtest\biblioteca\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 F:\newtest\biblioteca\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 F:\newtest\biblioteca\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 F:\newtest\biblioteca\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 F:\newtest\biblioteca\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 F:\newtest\biblioteca\app\Controllers\Prestamos.php(56): CodeIgniter\BaseModel->save(Array)
+#9 F:\newtest\biblioteca\system\CodeIgniter.php(933): App\Controllers\Prestamos->guardar()
+#10 F:\newtest\biblioteca\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+#11 F:\newtest\biblioteca\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 F:\newtest\biblioteca\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 F:\newtest\biblioteca\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 F:\newtest\biblioteca\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 F:\newtest\biblioteca\system\rewrite.php(44): require_once('F:\\newtest\\bibl...')
+#16 {main}
+CRITICAL - 2024-12-13 14:44:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`biblioteca`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`id_recurso`) REFERENCES `recursos` (`id`))
+[Method: POST, Route: prestamos/guardar]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (:id_usuario:, :fecha_prestamo:, :fecha_devolucion:, :estado:, :observaciones:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Prestamos.php(56): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+CRITICAL - 2024-12-13 14:44:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`biblioteca`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`id_recurso`) REFERENCES `recursos` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (\'8\', \'2024-12-13\', \'2024-12-20\', \'en curso\', \'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (\'8\', \'2024-12-13\', \'2024-12-20\', \'en curso\', \'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (:id_usuario:, :fecha_prestamo:, :fecha_devolucion:, :estado:, :observaciones:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Prestamos.php(56): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->guardar()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
+CRITICAL - 2024-12-13 14:44:27 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`biblioteca`.`prestamos`, CONSTRAINT `prestamos_ibfk_1` FOREIGN KEY (`id_recurso`) REFERENCES `recursos` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (\'8\', \'2024-12-13\', \'2024-12-20\', \'en curso\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (\'8\', \'2024-12-13\', \'2024-12-20\', \'en curso\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (\'8\', \'2024-12-13\', \'2024-12-20\', \'en curso\', \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `prestamos` (`id_usuario`, `fecha_prestamo`, `fecha_devolucion`, `estado`, `observaciones`) VALUES (:id_usuario:, :fecha_prestamo:, :fecha_devolucion:, :estado:, :observaciones:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Prestamos.php(56): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prestamos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('F:\\newtest\\biblioteca\\public\\index.php')
